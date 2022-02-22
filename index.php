@@ -8,8 +8,22 @@
 <body>
     Lets check it out 
 
+    <form method="post" action="index.php">
+        <input name="liczba" type="number">
+        <input type="submit" value="Potwierdź">
+    </form>
+
     <?php
-        
+        $liczbaU = $_POST['liczba']
+
+        if($liczbaU == 1)
+        {
+            echo "liczba jest równa 1"
+        }
+        else if($liczbaU == 2)
+        {
+            echo "liczba jest równa 2"
+        }
     ?>
 
 </body>
