@@ -14,15 +14,15 @@
     </form>
 
     <?php
-        $liczbaU = $_POST['liczba']
+        $liczbaU = $_POST['liczba'];
 
         if($liczbaU == 1)
         {
-            echo "liczba jest równa 1"
+            echo "liczba jest równa 1";
         }
         else if($liczbaU == 2)
         {
-            echo "liczba jest równa 2"
+            echo "liczba jest równa 2";
         }
     ?>
 
