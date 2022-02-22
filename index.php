@@ -7,5 +7,11 @@
 </head>
 <body>
     Lets check it out 
+
+    <?php
+        
+    ?>
+
 </body>
 </html>
+
